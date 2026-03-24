@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сироткин В.А. — Разработка программного обеспечения</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+
+    <header class="bg-white shadow-sm border-b border-gray-200 py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Сироткин Владислав Александрович</h1>
+            <p class="text-xl text-blue-600 font-medium mb-2">Самозанятый разработчик программного обеспечения</p>
+            <p class="text-md text-gray-500 mb-6">Профессиональное консультирование и разработка IT-решений</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#contact-section" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-md transition duration-200">Написать мне</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Оказываемые услуги</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-2">Разработка графических интерфейсов</h3>
+                    <p class="text-gray-600 text-sm">Проектирование и создание современных, отзывчивых пользовательских интерфейсов (UI/UX). Перевод макетов в качественный код на React/Next.js.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-2">Проектирование баз данных</h3>
+                    <p class="text-gray-600 text-sm">Разработка оптимальной структуры реляционных и NoSQL баз данных. Написание сложных запросов, нормализация и оптимизация производительности.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-2">Backend-разработка</h3>
+                    <p class="text-gray-600 text-sm">Создание надежной серверной логики и проектирование REST API (преимущественно на Go) для интеграции с клиентскими приложениями.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="font-bold text-lg mb-2">Серверная инфраструктура</h3>
+                    <p class="text-gray-600 text-sm">Настройка выделенных серверов (Ubuntu), контейнеризация приложений (Docker) и организация безопасного взаимодействия между микросервисами.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Избранные проекты</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-bold text-xl text-gray-900">Интерфейс аналитической платформы</h3>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Frontend / UI</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Разработка сложного пользовательского интерфейса для анализа финансовых стратегий. Реализация интерактивных тепловых карт (heatmaps) для визуализации больших массивов данных. Настройка безопасной авторизации через Google.</p>
+                    <div class="mb-3">
+                        <span class="font-semibold text-sm text-gray-700">Стек:</span>
+                        <span class="text-sm text-gray-600">React, Next.js, Tailwind CSS, Google OAuth</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-bold text-xl text-gray-900">Архитектура данных и Backend-система</h3>
+                        <span class="bg-gray-100 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Backend / Базы данных</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Проектирование схемы базы данных для высоконагруженного сервиса. Оптимизация хранения исторических данных. Разработка отказоустойчивой архитектуры на базе серверов в нескольких локациях с защищенным внутренним соединением.</p>
+                    <div class="mb-3">
+                        <span class="font-semibold text-sm text-gray-700">Стек:</span>
+                        <span class="text-sm text-gray-600">Go, PostgreSQL, Ubuntu 24.04, Docker, WebSockets</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Тарифы и услуги</h2>
+            <div class="space-y-4">
+                
+                <div class="flex flex-col sm:flex-row justify-between items-center bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Настройка инфраструктуры</h3>
+                        <p class="text-gray-600 text-sm">Подготовка сервера (Ubuntu), настройка Docker-окружения, базовая безопасность.</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 whitespace-nowrap"><span class="text-2xl font-bold text-blue-600">3 000 ₽</span></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-between items-center bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Разработка компонентов UI</h3>
+                        <p class="text-gray-600 text-sm">Верстка и логика отдельных интерактивных элементов интерфейса (React / Next.js).</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 whitespace-nowrap"><span class="text-2xl font-bold text-blue-600">4 000 ₽</span></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-between items-center bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Проектирование баз данных</h3>
+                        <p class="text-gray-600 text-sm">Разработка схемы данных, нормализация таблиц, написание и оптимизация SQL-запросов.</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 whitespace-nowrap"><span class="text-2xl font-bold text-blue-600">5 000 ₽</span></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-between items-center bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Backend API и бизнес-логика</h3>
+                        <p class="text-gray-600 text-sm">Разработка серверной части для приложения, настройка маршрутизации и обработки данных.</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 whitespace-nowrap"><span class="text-2xl font-bold text-blue-600">7 000 ₽</span></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-between items-center bg-white p-5 rounded-lg shadow-sm border border-gray-100 border-l-4 border-l-blue-600">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Комплексная разработка (Fullstack)</h3>
+                        <p class="text-gray-600 text-sm">Создание сложных веб-приложений и дашбордов под ключ: от проектирования БД до графического интерфейса.</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 whitespace-nowrap"><span class="text-2xl font-bold text-blue-600">9 000 ₽</span></div>
+                </div>
+
+            </div>
+            <p class="text-sm text-gray-500 mt-4">* Цены указаны за базовый модуль/компонент. Итоговая стоимость зависит от ТЗ.</p>
+        </section>
+
+        <section id="contact-section" class="mb-16 bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Обсудить задачу</h2>
+            
+            <form id="contactForm" class="space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Ваше имя</label>
+                        <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Email для ответа</label>
+                        <input type="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Опишите проект или задачу</label>
+                    <textarea rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md transition duration-200">
+                    Отправить сообщение
+                </button>
+            </form>
+
+            <div id="successMessage" class="hidden mt-4 p-4 bg-green-50 border border-green-200 rounded-md">
+                <p class="text-green-800 font-medium">Спасибо за обращение! Ваше сообщение успешно отправлено.</p>
+                <p class="text-green-600 text-sm mt-1">Я ознакомлюсь с деталями и свяжусь с вами в ближайшее время по указанному email.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+            <p>&copy; 2026 Сироткин Владислав Александрович.</p>
+            <div class="mt-4 md:mt-0 text-center md:text-right">
+                <p>Самозанятый разработчик (плательщик НПД)</p>
+                <p>ИНН: 123456789012</p>
+                <p class="mt-2"><a href="https://github.com/wladislove3" class="hover:text-white">github.com/wladislove3</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            this.style.display = 'none'; 
+            document.getElementById('successMessage').classList.remove('hidden'); 
+        });
+    </script>
+
+</body>
+</html>
